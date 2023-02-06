@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+</head>
+
+<body>
+  <style>
+    html{
+      font-size: 62.5%;
+    }
+    body{
+      font-family: Arial, sans-serif;
+      background-image: url("con2.avif");
+      background-color: #4CAF50;
+      /* background-repeat:no-repeat ; */
+    }
+
+    span {
+      text-align: center;
+      margin: 1.0rem;
+      font-weight: bolder;
+      font-size: large;
+      color: rgb(234, 93, 33);
+
+
+
+    }
+
+    #contact-form {
+      margin: 0 auto;
+      width: 60.0rem;
+      background-color: white;
+      padding: 3.0rem;
+      border-radius: 1.0rem;
+
+    }
+
+    label {
+      font-weight: bold;
+      margin-top: 2rem;
+      display: block;
+    }
+
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 1.2rem 2.0rem;
+      margin: .8rem 0;
+      box-sizing: border-box;
+      border: .2rem solid #ccc;
+      border-radius: .4rem;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 1.4rem 2.0rem;
+      margin: .8rem 0;
+      border: none;
+      border-radius: .4rem;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+    .foot{
+      transform: translate(-2.2rem,-57.5rem);
+    }
+
+    .foot ul li a {
+      margin: 1.0rem 0rem 1.0rem;
+      padding: 3.0rem;
+      color: rgb(249, 248, 248);
+      font-size: 2rem;
+      
+      
+      font-weight: bolder;
+      /* display: inline; */
+      text-decoration: none;
+      font-weight: bolder;
+     
+
+
+
+
+
+    }
+.foot ul li {
+  display: inline;
+}
+
+    .foot:hover ul li  a {
+      color: gold;
+      font-weight: bolder;
+      list-style: none;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      cursor: grab;
+      
+    }
+
+    span:hover H1 {
+      font-weight: bolder;
+      
+    }
+    @media(max-width:998px){
+      html{
+        font-size: 55%;
+      }
+    }
+    @media(max-width:768px){
+      html{
+        font-size: 45%;
+      }
+    }
+    @media(max-width:492px){
+      #contact-form{
+        margin: 0 auto;
+      width: 42.0rem;
+      background-color: white;
+      padding: 3.0rem;
+      border-radius: 1.0rem;
+
+
+      }
+      ul{
+        font-size: 10px;
+        position: relative;
+        left: -14px;
+      }
+      span{
+        font-size: 20px;
+
+      }
+    }
+  </style>
+  </head>
+
+  <body>
+    <span>
+      <H1>CONTACT ME :</H1>
+    </span>
+    <div id="contact-form">
+      <form>
+        <label>Name:</label>
+        <input type="text" name="name" required>
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <label>Phone:</label>
+        <input type="tel" name="phone">
+        <label>Message:</label>
+        <textarea name="message" rows="5" required></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    <div class="foot">
+      <ul>
+        <li><a href="index.html">HOME</a>
+        </li>
+        <li><a href="Aboutme.html">ABOUTME</a></li>
+        <li><a href="#">SERVICE</a></li>
+      </ul>
+    </div>
+  </body>
+
+</html>

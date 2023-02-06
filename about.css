@@ -1,0 +1,182 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("about2.jpg");
+  /* background-color: aquamarine; */
+  background-repeat: no-repeat;
+
+
+
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 3rem;
+}
+
+.container {
+  height: 216px;
+  width: 402px;
+  left: -37px;
+  position: relative;
+  font-size: 15px;
+  background-image: url('black.jpg');
+  color: azure;
+  font-family: 'Marck Script', cursive;
+  text-align: center;
+  transform: translate(61.1rem, 2.0rem);
+  border: .2rem solid rgb(191, 241, 10);
+  border-style: groove;
+  border-radius: 2.0rem;
+
+
+
+
+
+
+}
+
+.container2 {
+  height: 309px;
+  width: 429px;
+  left: 159px;
+  position: relative;
+  top: -58px;
+  font-size: 18px;
+
+  background-image: url('black.jpg');
+  color: azure;
+
+  border: .2rem solid rgb(179, 241, 23);
+  border-radius: 2.0rem;
+  transform: translate(61.1rem, 2.0rem);
+  /* font-size: 20px; */
+  display: flex;
+  border-style: groove;
+  margin: 100px;
+  padding: 5px;
+  height: 233px;
+
+
+}
+
+
+li {
+  display: inline;
+  margin: 2.0rem;
+  padding: 2.0rem;
+  color: black;
+  font-weight: bold;
+  list-style: none;
+  font-size: 2.0rem;
+
+}
+
+li a {
+  text-decoration: none;
+  flex-wrap: wrap;
+  font-weight: bold;
+  font-family: 'Hind Siliguri', sans-serif;
+
+}
+
+li :hover {
+  color: red;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+@media(max-width:1053px) {
+  html {
+    font-size: 45%;
+  }
+
+  .container {
+    height: 136px;
+    width: 328px;
+    left: -440px;
+    position: relative;
+  }
+
+  .container2 {
+    height: 209px;
+    width: 457px;
+    left: -539px;
+    position: relative;
+    top: -87px;
+  }
+
+}
+
+
+
+@media(max-width:998px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media(max-width:610px) {
+  h1 {
+    font-size: 15px;
+  }
+
+  li {
+    font-size: 8px;
+  }
+}
+
+.container {
+  height: 136px;
+  width: 328px;
+  left: -440px;
+  position: relative;
+  font-size: 10px;
+
+}
+
+.container2 {
+  height: 148px;
+  width: 375px;
+  left: -539px;
+  position: relative;
+  top: -58px;
+  font-size: 10px;
+
+}
+
+@media(max-width:486px) {
+  h1 {
+    font-size: 15px;
+  }
+
+  li {
+    font-size: 5px;
+    font-weight: bolder;
+  }
+
+  .container {
+    height: 140px;
+    width: 226px;
+    left: -535px;
+    position: relative;
+    font-size: 9px;
+
+  }
+
+  .container2 {
+    height: 173px;
+    width: 301px;
+    left: -637px;
+    position: relative;
+    top: -58px;
+    font-size: 11px;
+
+  }
+}
